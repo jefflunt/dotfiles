@@ -2,11 +2,16 @@ if [ -f ~/.git/completion.bash ]; then
   . ~/.git/completion.bash
 fi
 
+export HISTFILESIZE=5000000
+set editing-mode vi
+set -o vi
+
+# Prompt modification
+export PS1="\t.$PS1"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-set -o vi
-
+# Friendly stuff
 alias x='exit'
 alias v='vim'
 alias r='ruby'
@@ -33,10 +38,16 @@ alias gb='git branch'
 alias gp='git push'
 alias gpsu='git push --set-upstream origin $(git branch | grep "*" | tr -d "* ")'
 alias gl='git log'
-alias glo='git log --oneline'
+alias glo='git log --pretty=format:'\''%C(yellow)%h %Cred%ad %Cblue%an%x09%Cgreen%d %Creset%s'\'' --date=short'
 alias gt='git tag'
 function gbpurge() {
   git branch -d $1;
   git branch -dr origin/$1
   git push origin --delete $1
 }
+
+alias b='bundle exec'
+alias bs='bundle show'
+alias bi='bundle install'
+alias bu='bundle update'
+alias bo='bundle open'
