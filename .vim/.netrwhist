@@ -1,11 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/jlunt/.vim/bundle/vim-airline/autoload/airline'
-let g:netrw_dirhist_2='/Users/jlunt/.vim/bundle/vim-airline/autoload/airline/extensions'
-let g:netrw_dirhist_3='/Users/jlunt/.vim/bundle/vim-airline/autoload/airline'
-let g:netrw_dirhist_4='/Users/jlunt/.vim/bundle/vim-airline/autoload/airline/themes'
-let g:netrw_dirhist_5='/Users/jlunt/.vim/bundle/vim-airline/autoload/airline'
-let g:netrw_dirhist_6='/Users/jlunt/.vim/bundle/vim-airline/autoload'
-let g:netrw_dirhist_7='/Users/jlunt/.vim/bundle/vim-airline'
-let g:netrw_dirhist_8='/Users/jlunt/.vim'
-let g:netrw_dirhist_9='/Users/jlunt/.vim/configs'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/private/tmp/dino_catalog'
+let g:netrw_dirhist_2='/private/tmp/dino_catalog/pair_programmer'
+let g:netrw_dirhist_3='/private/tmp/dino_catalog'
+let g:netrw_dirhist_4='/private/tmp/dino_catalog/pair_programmer'
