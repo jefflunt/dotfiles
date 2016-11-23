@@ -1,0 +1,12 @@
+CMD + J:
+  Chrome: tab left
+  iTerm: window left
+CMD + K:
+  Chrome: tab right
+  iTerm: window right
+CMD + SHIFT + J:
+  iTerm: tab left
+CMD + SHIFT + K:
+  iTerm: tab right
+CMD + SHIFT + Space:
+  iTerm: clear scrollback buffer

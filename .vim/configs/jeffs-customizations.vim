@@ -9,6 +9,7 @@ set autoindent
 set noswapfile
 
 let mapleader=" "
+imap ;; <Esc>
 noremap <Leader>w :w<ENTER>
 noremap <Leader>a :wa<ENTER>
 noremap <Leader>q :q<ENTER>
