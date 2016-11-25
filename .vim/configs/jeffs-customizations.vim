@@ -6,8 +6,8 @@ set laststatus=2                " always show status line
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
-
 let mapleader=" "
+set noswapfile
 noremap <Leader>w :w<ENTER>
 noremap <Leader>a :wa<ENTER>
 noremap <Leader>q :q<ENTER>
